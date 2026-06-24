@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<origin>Olivia A. De Meo</origin>
+				<origin>Steven E. Suttles</origin>
+				<origin>Eric D. Marsjanik</origin>
+				<origin>Robert D. Bales</origin>
+				<origin>Christopher R. Sherwood</origin>
+				<pubdate>2025</pubdate>
+				<title>Time-series measurements of oceanographic data collected in the nearshore zone offshore of Marconi Beach, Wellfleet, MA, December 9, 2024 to March 10, 2025</title>
+				<edition>1.0</edition>
+				<geoform>netCDF</geoform>
+				<serinfo>
+					<sername>data release</sername>
+					<issue>DOI:10.5066/XXXX</issue>
+				</serinfo>
+				<pubinfo>
+					<pubplace>Woods Hole Coastal and Marine Science Center, Woods Hole, Massachusetts</pubplace>
+					<publish>U.S. Geological Survey</publish>
+				</pubinfo>
+				<othercit>Suggested citation: De Meo, O.A., Suttles, S.E., Marsjanik, E.D., Bales, R.D., and Sherwood, C.R., 2025, Time-series measurements of oceanographic data collected in the nearshore zone offshore of Marconi Beach, Wellfleet, MA, December 9, 2024 to March 10, 2025: U.S. Geological Survey data release, https://doi.org/10.5066/XXXX.</othercit>
+				<onlink>https://doi.org/10.5066/XXXX</onlink>
+				<onlink>https://cmgds.marine.usgs.gov/data-releases/datarelease/10.5066-XXXX</onlink>
+			</citeinfo>
+		</citation>
+		<descript>
+			<abstract>The U.S. Geological Survey (USGS) Woods Hole Coastal and Marine Science Center deployed a nanopod to collect measurements of winter wave conditions directly offshore of Marconi Beach in Wellfleet, MA. Marconi Beach is the site of ongoing measurements of wave runup, and this field work provides information on the incident waves and water levels that are ultimately responsible for wave runup on the beach. Maps of subaerial topography and nearshore bathymetry were made to augment the wave and runup measurements. These observations will allow us to test and validate models of wave shoaling and transformation and generation of wave runup. The larger objective of this work is to provide validation and indicate needed improvements for the Total Water Level and Coastal Change forecasts made publicly available in real time by the USGS. These forecasts provide information that emergency managers and the American public can use to help safeguard coastal property, businesses, energy production and distribution facilities, and national security installations.			
+			</abstract>
+			<purpose>A submerged nanopod was deployed to collect a time series of temperature, conductivity, salinity, seabed height, pressure, and water velocity.</purpose>
+			<supplinf>More information about the field activities during which these data were collected is available at https://cmgds.marine.usgs.gov/fan_info.php?fan=2024-028-FA and https://cmgds.marine.usgs.gov/fan_info.php?fan=2025-010-FA</supplinf>
+		</descript>
+		<timeperd>
+			<timeinfo>
+				<rngdates>
+					<begdate>20241209</begdate>
+					<enddate>20250310</enddate>
+				</rngdates>
+			</timeinfo>
+			<current>ground condition at time data were collected</current>
+		</timeperd>
+		<status>
+			<progress>Complete</progress>
+			<update>None planned</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc>-69.952654</westbc>
+				<eastbc>-69.932012</eastbc>
+				<northbc>41.908287</northbc>
+				<southbc>41.894675</southbc>
+			</bounding>
+		</spdom>
+		<keywords>
+			<theme>
+				<themekt>ISO 19115 Topic Category</themekt>
+				<themekey>geoscientificInformation</themekey>
+				<themekey>oceans</themekey>
+			</theme>
+			<theme>
+				<themekt>USGS Thesaurus</themekt>
+				<themekey>time series datasets</themekey>
+				<themekey>ocean salinity</themekey>
+				<themekey>water temperature</themekey>
+				<themekey>ocean currents</themekey>
+				<themekey>ocean waves</themekey>
+				<themekey>surface-water level</themekey>
+				<themekey>water quality</themekey>
+				<themekey>ocean sciences</themekey>
+			</theme>
+			<theme>
+				<themekt>None</themekt>
+				<themekey>U.S. Geological Survey</themekey>
+				<themekey>CMHRP</themekey>
+				<themekey>Woods Hole Coastal and Marine Science Center</themekey>
+			</theme>
+			<place>
+				<placekt>Common geographic areas</placekt>
+				<placekey>Massachusetts</placekey>
+				<placekey>Atlantic</placekey>
+			</place>
+			<place>
+				<placekt>Geographic Names Information System (GNIS)</placekt>
+				<placekey>Atlantic Ocean</placekey>
+				<placekey>Marconi Beach</placekey>
+			</place>
+		</keywords>
+		<accconst>None</accconst>
+		<useconst>USGS-authored or produced data and information are in the public domain from the U.S. Government and are freely redistributable with proper metadata and source attribution. Please recognize and acknowledge the U.S. Geological Survey as the originator(s) of the dataset and in products derived from these data.</useconst>
+		<ptcontac>
+			<cntinfo>
+				<cntperp>
+					<cntper>Olivia A. De Meo</cntper>
+					<cntorg>U.S. Geological Survey, Northeast Region</cntorg>
+				</cntperp>
+				<cntpos>Physical Scientist</cntpos>
+				<cntaddr>
+					<addrtype>mailing address</addrtype>
+					<address>384 Woods Hole Road</address>
+					<city>Woods Hole</city>
+					<state>MA</state>
+					<postal>02543</postal>
+					<country>US</country>
+				</cntaddr>
+				<cntvoice>508-458-8700</cntvoice>
+				<cntemail>whsc_data_contact@usgs.gov</cntemail>
+				<cntinst>The contact email address is a generic address in the event the person is no longer with USGS.</cntinst>
+			</cntinfo>
+		</ptcontac>
+		<browse>
+			<browsen>https://cmgds.marine.usgs.gov/data-releases/media/2025/10.5066-XXXX/YYYY/nanopod.JPG</browsen>
+			<browsed>Photo of nanopod with attached sensors.</browsed>
+			<browset>JPEG</browset>
+		</browse>
+		<crossref>
+			<citeinfo>
+				<origin>Daniel J. Nowacki</origin>
+				<origin>Steven E. Suttles</origin>
+				<origin>Robert D. Bales</origin>
+				<origin>Olivia A. De Meo</origin>
+				<pubdate>2024</pubdate>
+				<title>stglib: Oceanographic Time Series Data Processing Library</title>
+				<geoform>application/service</geoform>
+				<serinfo>
+					<sername>U.S. Geological Survey software release</sername>
+					<issue>DOI:10.5066/P13IQYFW</issue>
+				</serinfo>
+				<pubinfo>
+					<pubplace>Reston, VA</pubplace>
+					<publish>U.S. Geological Survey</publish>
+				</pubinfo>
+				<onlink>https://doi.org/10.5066/P13IQYFW</onlink>
+			</citeinfo>
+		</crossref>
+	</idinfo>
+	<dataqual>
+		<attracc>
+			<attraccr>The Sea-Bird SBE37 MicroCAT has a conductivity accuracy of +/- 0.0003 S/m, temperature accuracy of +/-0.002 degrees Celsius, and pressure accuracy of +/- 0.1% full scale. The Sea-Bird SBE26plus Seagauge has a temperature accuracy of +/- 0.01 degrees Celsius and pressure accuracy of +/- 0.01% full scale. The Nortek Signature 1000 has a velocity accuracy of 0.3% of measured value +/- 0.3 cm/s, temperature accuracy of +/- 0.1 degrees Celsius, pressure accuracy of +/- 0.1% full scale, and compass accuracy of +/- 2 degrees. The EofE EchoLogger has a temperature accuracy of +/- 0.5 degrees Celsius, tilt accuracy of +/- 0.1 degrees, and range resolution up to 1 mm.</attraccr>
+		</attracc>
+		<logic>The Nortek Signature compass was calibrated prior to deployment. Pressure sensors were compared to local atmospheric pressure data before deployment and an offset was determined. This offset along with a time-series of local atmospheric data were used to find corrected pressure data (variable name "P_1ac" and standard_name "sea_water_pressure_due_to_sea_water" in the netCDF files). All data were processed, quality-controlled, and converted into netCDF files with the stglib Python library, a package of code to process data consistent with the procedures of the USGS Coastal/Marine Hazards and Resources Program. More information about the stglib package can be found here: https://stglib.readthedocs.io/en/latest/.</logic>
+		<complete>All instruments on the nanopod were free of biofouling when recovered. The dataset is considered complete.</complete>
+		<posacc>
+			<horizpa>
+				<horizpar>Horizontal position was determined using a Garmin GPSMAP 78sc handheld GPS. The expected absolute, horizontal accuracy is stated to be 3 to 5 m at the 95% confidence level using the WAAS setting. The Garmin GPS collects data in the WGS84 datum; however it is reported in the NAD83 datum as the difference in the values of the latitude and longitude is within the error of the sensor.</horizpar>
+			</horizpa>
+			<vertacc>
+				<vertaccr>Orthometric elevations (NAVD88) were calculated with the Vdatum tool (https://vdatum.noaa.gov/vdatumweb/) using Geoid18 and estimates of local mean sea-level from the corrected pressure data. The resulting vertical position uncertainty is approximately 0.10 m.</vertaccr>
+			</vertacc>
+		</posacc>
+		<lineage>
+			<procstep>
+				<procdesc>A nanopod mounted with a Nortek Signature, a Seabird Microcat, a Seabird Seagauge, an EofE EchoLogger, and Edgetech releases was loaded onto the R/V Tioga in Woods Hole, MA. The ship sailed to Marconi Beach, MA. The nanopod was lowered into the water and the latitude and longitude were recorded. The releases were pinged and a signal was received back indicating the nanopod was upright.</procdesc>
+				<procdate>20241209</procdate>
+			</procstep>
+			<procstep>
+				<procdesc>The R/V Tioga sailed from Woods Hole, MA to Marconi Beach, MA. The releases were pinged and a signal was received back indicating the nanopod was upright. The release command was initiated and the nanopod was hooked and raised onto the deck. All instruments were clean and free of biofouling. All data were downloaded from the instruments.</procdesc>
+				<procdate>20250310</procdate>
+			</procstep>
+			<procstep>
+				<procdesc>The raw data files from each sensor were processed and converted to netCDF using the stglib Python library, a package of code to process data consistent with procedures of the USGS Coastal/Marine Hazards and Resources Program. In stglib, attributes conforming to Climate and Forecast (CF) Conventions version 1.8 were added. All times are in Coordinated Universal Time (UTC). For all pressure sensors, corrected pressure data (P_1ac) were calculated by finding an offset with local atmospheric pressure readings when the pressure sensor was reading in air just prior to deployment. Pressure data were corrected using the offset and a time-series of local atmospheric pressure over the course of the deployment to remove the atmospheric contribution to the deployed pressure data. The resulting corrected pressure variable is the pressure due to seawater (standard_name "sea_water_pressure_due_to_seawater" in netCDF files). Data quality assurance and quality control (QAQC) was performed by inspecting all variables and replacing spurious values with the fill value. Details of which portions of data were flagged and replaced are available in the metadata in each netCDF file and information about the individual QAQC trimming functions are available in the stglib documentation (https://stglib.readthedocs.io/en/latest/) in the "Instrument configuration file" section. The netCDF files are named using the convention ####XZZZ where '####' is the mooring number, 'X' is the position on the mooring of the sensor with 1 being closest to the surface, and 'ZZZ' is an abbreviation for the instrument that was deployed. For example, in the file 11753mc-a.nc, '1175' is the mooring number, '3' is the position of the sensor on the mooring, and 'mc' refers to the Seabird MicroCAT sensor.</procdesc>
+				<procdate>202504</procdate>
+				<proccont>
+					<cntinfo>
+						<cntperp>
+							<cntper>Olivia A. De Meo</cntper>
+							<cntorg>U.S. Geological Survey, Northeast Region</cntorg>
+						</cntperp>
+						<cntpos>Physical Scientist</cntpos>
+						<cntaddr>
+							<addrtype>mailing address</addrtype>
+							<address>384 Woods Hole Road</address>
+							<city>Woods Hole</city>
+							<state>MA</state>
+							<postal>02543</postal>
+							<country>US</country>
+						</cntaddr>
+						<cntvoice>508-458-8700</cntvoice>
+						<cntemail>whsc_data_contact@usgs.gov</cntemail>
+						<cntinst>The contact email address is a generic address in the event the person is no longer with USGS.</cntinst>
+					</cntinfo>
+				</proccont>
+			</procstep>
+		</lineage>
+	</dataqual>
+	<spdoinfo>
+		<direct>Point</direct>
+		<ptvctinf>
+			<sdtsterm>
+				<sdtstype>Point</sdtstype>
+				<ptvctcnt>1</ptvctcnt>
+			</sdtsterm>
+		</ptvctinf>
+	</spdoinfo>
+	<spref>
+		<horizsys>
+			<geograph>
+				<latres>0.00001</latres>
+				<longres>0.00001</longres>
+				<geogunit>Decimal degrees</geogunit>
+			</geograph>
+			<geodetic>
+				<horizdn>North American Datum of 1983 (National Spatial Reference System 2011)</horizdn>
+				<ellips>GRS_1980</ellips>
+				<semiaxis>6378137.000000</semiaxis>
+				<denflat>298.257222</denflat>
+			</geodetic>
+		</horizsys>
+		<vertdef>
+			<altsys>
+				<altdatum>North American Vertical Datum of 1988 using Geoid 18</altdatum>
+				<altres>0.01</altres>
+				<altunits>meters</altunits>
+				<altenc>Explicit elevation coordinate included with horizontal coordinates</altenc>
+			</altsys>
+			<depthsys>
+				<depthdn>Mean sea level</depthdn>
+				<depthres>0.01</depthres>
+				<depthdu>meters</depthdu>
+				<depthem>Explicit depth coordinate included with horizontal coordinates</depthem>
+			</depthsys>
+		</vertdef>
+	</spref>
+	<eainfo>
+		<detailed>
+			<enttyp>
+				<enttypl>11751sigb.nc</enttypl>
+				<enttypd>netCDF file from upward looking Nortek Signature 1000 5-beam ADCP. Contains processed continuously sampled (4 Hz) data of profiled horizontal and vertical water velocities from the 4 slant beams, acoustic surface tracking, pressure, and Attitude and Heading Reference System (AHRS) from "Burst" data type. time = 31,442,880 points, time interval = 0.25 seconds.</enttypd>
+				<enttypds>Coastal and Marine Hazards and Resources Program (CHMRP)</enttypds>
+			</enttyp>
+		</detailed>
+		<detailed>
+			<enttyp>
+				<enttypl>11751sigb-a.nc</enttypl>
+				<enttypd>netCDF file from upward looking Nortek Signature 1000 5-beam ADCP. Contains processed time averaged data of profiled horizontal and vertical water velocities from 4 slant beams, acoustic surface tracking, pressure, and Attitude and Heading Reference System (AHRS) from "Burst" data type. time = 21,835 points, time interval = 360 seconds.</enttypd>
+				<enttypds>Coastal and Marine Hazards and Resources Program (CHMRP)</enttypds>
+			</enttyp>
+		</detailed>
+		<detailed>
+			<enttyp>
+				<enttypl>11751sigs-a.nc</enttypl>
+				<enttypd>netCDF file from upward looking Nortek Signature 1000 5-beam ADCP. Contains processed non-directional wave statistics calculated using the rapidly sampled data from "Burst" data type. time = 2,182 points, time interval = 3,600 seconds.</enttypd>
+				<enttypds>Coastal and Marine Hazards and Resources Program (CHMRP)</enttypds>
+			</enttyp>
+		</detailed>
+		<detailed>
+			<enttyp>
+				<enttypl>11751sigs_diwasp-a.nc</enttypl>
+				<enttypd>netCDF file from upward looking Nortek Signature 1000 5-beam ADCP. Contains processed directional wave statistics calculated using rapidly sampled data from "Burst" data type.  time = 2,182 points, time interval = 3,600 seconds.</enttypd>
+				<enttypds>Coastal and Marine Hazards and Resources Program (CHMRP)</enttypds>
+			</enttyp>
+		</detailed>
+		<detailed>
+			<enttyp>
+				<enttypl>11751sigb5.nc</enttypl>
+				<enttypd>netCDF file from upward looking Nortek Signature 1000 5-beam ADCP. Contains processed continuously sampled (4 Hz) data of profiled vertical water velocities from beam 5 (center), pressure, and Attitude and Heading Reference System (AHRS) from "IBurst" data type. time = 31,442,880 points, time interval = 0.25 seconds.</enttypd>
+				<enttypds>Coastal and Marine Hazards and Resources Program (CHMRP)</enttypds>
+			</enttyp>
+		</detailed>
+		<detailed>
+			<enttyp>
+				<enttypl>11751sigb5-a.nc</enttypl>
+				<enttypd>netCDF file from upward looking Nortek Signature 1000 5-beam ADCP. Contains processed time-average data of profiled vertical water velocities from beam 5 (center), pressure, and Attitude and Heading Reference System (AHRS) from "IBurst" data type.  time = 21,835 points, time interval = 360 seconds.</enttypd>
+				<enttypds>Coastal and Marine Hazards and Resources Program (CHMRP)</enttypds>
+			</enttyp>
+		</detailed>
+		<detailed>
+			<enttyp>
+				<enttypl>11752sgt-a.nc</enttypl>
+				<enttypd>netCDF file from Seabird SBE26 Seagauge Wave and Tide recorder. Contains processed pressure and water level data. time = 21,835 points, time interval = 360 seconds.</enttypd>
+				<enttypds>Coastal and Marine Hazards and Resources Program (CHMRP)</enttypds>
+			</enttyp>
+		</detailed>
+		<detailed>
+			<enttyp>
+				<enttypl>11753mc-a.nc</enttypl>
+				<enttypd>netCDF file from Seabird SBE37 MicroCat. Contains processed water temperature, conductivity, and salinity data. time = 21,615 points, time interval = 360 seconds.</enttypd>
+				<enttypds>Coastal and Marine Hazards and Resources Program (CHMRP)</enttypds>
+			</enttyp>
+		</detailed>
+		<detailed>
+			<enttyp>
+				<enttypl>11754aab.nc</enttypl>
+				<enttypd>netCDF file from an EofE Echologger AA400 Altimeter. Contains burst-sampled height above seabed. time = 21,655 points, time interval = 360 seconds.</enttypd>
+				<enttypds>Coastal and Marine Hazards and Resources Program (CHMRP)</enttypds>
+			</enttyp>
+		</detailed>
+		<detailed>
+			<enttyp>
+				<enttypl>11754aab-a.nc</enttypl>
+				<enttypd>netCDF file from an EofE Echologger AA400 Altimeter. Contains burst-averaged height above seabed. time = 21,655 points, time interval = 360 seconds.</enttypd>
+				<enttypds>Coastal and Marine Hazards and Resources Program (CHMRP)</enttypds>
+			</enttyp>
+		</detailed>
+		<overview>
+			<eaover>NetCDF files are self-describing and attribute information may be found in the header of the file itself.</eaover>
+			<eadetcit>The entity and attribute information were generated by the individual and/or agency identified as the originator of the dataset. Please review the rest of the metadata record for additional details and information.</eadetcit>
+		</overview>
+	</eainfo>
+	<distinfo>
+		<distrib>
+			<cntinfo>
+				<cntperp>
+					<cntper>Olivia A. De Meo</cntper>
+					<cntorg>U.S. Geological Survey, Northeast Region</cntorg>
+				</cntperp>
+				<cntpos>Physical Scientist</cntpos>
+				<cntaddr>
+					<addrtype>mailing address</addrtype>
+					<address>384 Woods Hole Road</address>
+					<city>Woods Hole</city>
+					<state>MA</state>
+					<postal>02543</postal>
+					<country>US</country>
+				</cntaddr>
+				<cntvoice>508-458-8700</cntvoice>
+				<cntemail>whsc_data_contact@usgs.gov</cntemail>
+				<cntinst>The contact email address is a generic address in the event the person is no longer with USGS.</cntinst>
+			</cntinfo>
+		</distrib>
+		<resdesc>Downloadable data in netCDF format. NetCDF files are named by site location code and deployment sequence at each site. There are 10 processed netCDF files in this dataset.</resdesc>
+		<distliab>Unless otherwise stated, all data, metadata and related materials are considered to satisfy the quality standards relative to the purpose for which the data were collected. Although these data and associated metadata have been reviewed for accuracy and completeness and approved for release by the U.S. Geological Survey (USGS), no warranty expressed or implied is made regarding the display or utility of the data on any other system or for general or scientific purposes, nor shall the act of distribution constitute any such warranty.</distliab>
+		<stdorder>
+			<digform>
+				<digtinfo>
+					<formname>NetCDF</formname>
+					<formvern>netCDF-4, CF-1.8</formvern>
+					<formcont>FIX
+					Time-series data in netCDF format following Climate and Forecast (CF) Metadata Conventions version 1.8. File download sizes range from 0.295 to 4900 MB.</formcont>
+					<filedec>Compressed file of whole dataset and uncompressed individual files provided</filedec>
+					<transize>FIX
+					4900</transize>
+				</digtinfo>
+				<digtopt>
+					<onlinopt>
+						<computer>
+							<networka>
+								<networkr>https://cmgds.marine.usgs.gov/data-releases/media/2024/10.5066-XXXX/YYYY/caco-waves_timeseries.zip</networkr>
+								<networkr>https://doi.org/10.5066/XXXX</networkr>
+							</networka>
+						</computer>
+						<accinstr>The first link downloads all the netCDF files in a single zip file. The second link is to the landing page of the data where files can be downloaded individually.</accinstr>
+					</onlinopt>
+				</digtopt>
+			</digform>
+			<fees>None.</fees>
+		</stdorder>
+		<techpreq>These data can be viewed with any software capable of reading netCDF files.</techpreq>
+	</distinfo>
+	<metainfo>
+		<metd>20250612</metd>
+		<metc>
+			<cntinfo>
+				<cntperp>
+					<cntper>Olivia A. De Meo</cntper>
+					<cntorg>U.S. Geological Survey, Northeast Region</cntorg>
+				</cntperp>
+				<cntpos>Physical Scientist</cntpos>
+				<cntaddr>
+					<addrtype>mailing address</addrtype>
+					<address>384 Woods Hole Road</address>
+					<city>Woods Hole</city>
+					<state>MA</state>
+					<postal>02543</postal>
+					<country>US</country>
+				</cntaddr>
+				<cntvoice>508-458-8700</cntvoice>
+				<cntemail>whsc_data_contact@usgs.gov</cntemail>
+				<cntinst>The metadata contact email address is a generic address in the event the person is no longer with USGS.</cntinst>
+			</cntinfo>
+		</metc>
+		<metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+		<metstdv>FGDC-STD-001-1998</metstdv>
+	</metainfo>
+</metadata>

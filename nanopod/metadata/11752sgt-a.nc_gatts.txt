@@ -1,0 +1,201 @@
+Source:
+           C:\Users\odemeo\Documents\Data Processing\Caco_waves\sg\11752sgt-a.nc
+Format:
+           netcdf4
+Global Attributes:
+           SciPi                                          = 'Chris Sherwood'
+           PROJECT                                        = 'USGS Coastal and Marine Hazards and Resources Program'
+           EXPERIMENT                                     = 'caco-waves'
+           DESCRIPTION                                    = 'Cape Cod National Seashore, Marconi Beach, Wellfleet, MA'
+           title                                          = 'Time-series measurements of oceanographic data collected in the nearshore zone offshore of Marconi Beach, Wellfleet, MA, December 9, 2024 to March 10, 2025'
+           DATA_SUBTYPE                                   = 'MOORED'
+           DATA_ORIGIN                                    = 'USGS WHCMSC Coastal and Estuarine Dynamics'
+           COORD_SYSTEM                                   = 'GEOGRAPHIC'
+           Conventions                                    = 'CF-1.8'
+           MOORING                                        = '1175'
+           sea_floor_depth_below_mean_sea_level           = 21.1
+           WATER_DEPTH                                    = 21.1
+           WATER_DEPTH_NOTE                               = '(meters), Mean water depth from Signature1000 pressure data'
+           height_above_geopotential_datum                = -21.2
+           geopotential_datum_name                        = 'NAVD88'
+           geopotential_datum_note                        = 'Elevation at seabed using VDatum with LMSL and GEOID18'
+           latitude                                       = 41.8979
+           longitude                                      = -69.9425
+           magnetic_variation                             = -14.35
+           Deployment_date                                = '09-Dec-2024 17:22'
+           Recovery_date                                  = '10-Mar-2025 16:53'
+           DATA_CMNT                                      = 'No magnetic variation recorded, used data from IGRF model via ngdc.noaa.gov.'
+           platform_type                                  = 'Nanopod'
+           DRIFTER                                        = 0
+           POS_CONST                                      = 0
+           DEPTH_CONST                                    = 0
+           WATER_MASS                                     = 'North Atlantic Ocean'
+           VAR_FILL                                       = NaN
+           institution                                    = 'United States Geological Survey, Woods Hole Coastal and Marine Science Center'
+           institution_url                                = 'https://woodshole.er.usgs.gov'
+           Field_Activity_Number                          = '2024-028-FA, 2025-010-FA'
+           basefile                                       = 'sg_1099_raw_upload_03132025'
+           filename                                       = '11752sg'
+           LatLonDatum                                    = 'NAD83'
+           initial_instrument_height                      = 0.445
+           initial_instrument_height_note                 = 'height above seabed'
+           file_type                                      = '.tid'
+           P_1ac_note                                     = 'Corrected for variations in atmospheric pressure using wxt536 met station at Marconi CoastCam site.'
+           SGSoftwareVersion                              = '2.0'
+           SGPressureSensorSerial                         = '100434'
+           SGTideInterval                                 = '6.000'
+           SGTideIntervalUnits                            = 'minutes'
+           SGTideDuration                                 = '300'
+           SGTideDurationUnits                            = 'seconds'
+           SGTideSamplesPerDay                            = '240.000'
+           SGNumberOfTideMeasurements                     = '24173'
+           SGPressureCalibrationDate                      = '15-oct-18'
+           SGPressureCalibrationU0                        = 5.808
+           SGPressureCalibrationY1                        = -3930.279
+           SGPressureCalibrationY2                        = -10870.2
+           SGPressureCalibrationY3                        = 0
+           SGPressureCalibrationC1                        = 960.7259
+           SGPressureCalibrationC2                        = 21.1055
+           SGPressureCalibrationC3                        = -1600.264
+           SGPressureCalibrationD1                        = 0.028423
+           SGPressureCalibrationD2                        = 0
+           SGPressureCalibrationT1                        = 28.0749
+           SGPressureCalibrationT2                        = 0.43551
+           SGPressureCalibrationT3                        = 17.5348
+           SGPressureCalibrationT4                        = 24.3082
+           SGPressureCalibrationM                         = 62914.5
+           SGPressureCalibrationB                         = 4194.3
+           SGPressureCalibrationOFFSET                    = -0.1297
+           SGTemperatureCalibrationDate                   = '29-sep-18'
+           SGTemperatureCalibrationTA0                    = 0.00018047
+           SGTemperatureCalibrationTA1                    = 0.0002689
+           SGTemperatureCalibrationTA2                    = -3.2084e-06
+           SGTemperatureCalibrationTA3                    = 1.958e-07
+           data_type                                      = 'TIDE'
+           history                                        = '2025-06-09T18:39:58.560341+00:00: Processed using tid2cdf.py with stglib 1.6.1+19.g8ca416f, xarray 2024.11.0, NumPy 2.1.3, netCDF4 1.7.2, Python 3.12.7.
+                                                            2025-06-09T18:40:01.884227+00:00: Data clipped using Deployment_date of 09-Dec-2024 17:22 and Recovery_date of 10-Mar-2025 16:53.
+                                                            2025-06-09T18:40:01.888228+00:00: Create water_level variable relative to NAVD88 using P_1ac and z vertical dimension
+                                                            2025-06-09T18:40:01.889230+00:00: Create water_depth variable using P_1ac and initial_instrument_height attribute
+                                                            '
+           atmospheric_pressure_correction_file           = '11752sg-atmpres.cdf'
+           atmospheric_pressure_correction_offset_applied = -0.057911
+           nominal_instrument_depth                       = 20.655
+           start_time                                     = '2024-12-09T17:24:00.000000000'
+           stop_time                                      = '2025-03-10T16:48:00.000000000'
+           DELTA_T                                        = 360
+Dimensions:
+           time      = 21835 (UNLIMITED)
+           z         = 1
+           depth     = 1
+           latitude  = 1
+           longitude = 1
+Variables:
+    P_1        
+           Size:       21835x1
+           Dimensions: time
+           Datatype:   double
+           Attributes:
+                       _FillValue    = NaN
+                       units         = 'dbar'
+                       long_name     = 'Uncorrected pressure'
+                       standard_name = 'sea_water_pressure'
+                       minimum       = 29.159
+                       maximum       = 32.271
+    T_28       
+           Size:       21835x1
+           Dimensions: time
+           Datatype:   double
+           Attributes:
+                       _FillValue    = NaN
+                       units         = 'degree_C'
+                       standard_name = 'sea_water_temperature'
+                       long_name     = 'Temperature'
+                       minimum       = 1.349
+                       maximum       = 8.748
+    time       
+           Size:       21835x1
+           Dimensions: time
+           Datatype:   int32
+           Attributes:
+                       standard_name = 'time'
+                       axis          = 'T'
+                       long_name     = 'time (UTC)'
+                       units         = 'minutes since 2024-12-09 17:24:00'
+                       calendar      = 'proleptic_gregorian'
+    P_1ac      
+           Size:       21835x1
+           Dimensions: time
+           Datatype:   double
+           Attributes:
+                       _FillValue    = NaN
+                       units         = 'dbar'
+                       long_name     = 'Corrected pressure'
+                       standard_name = 'sea_water_pressure_due_to_sea_water'
+                       note          = 'Corrected for variations in atmospheric pressure using wxt536 met station at Marconi CoastCam site.'
+                       minimum       = 18.848
+                       maximum       = 22.2656
+    z          
+           Size:       1x1
+           Dimensions: z
+           Datatype:   double
+           Attributes:
+                       geopotential_datum_name = 'NAVD88'
+                       long_name               = 'height relative to NAVD88'
+                       positive                = 'up'
+                       axis                    = 'Z'
+                       units                   = 'm'
+                       standard_name           = 'height'
+    depth      
+           Size:       1x1
+           Dimensions: depth
+           Datatype:   double
+           Attributes:
+                       positive      = 'down'
+                       units         = 'm'
+                       standard_name = 'depth'
+                       long_name     = 'depth below mean sea level'
+    water_level
+           Size:       21835x1
+           Dimensions: time
+           Datatype:   double
+           Attributes:
+                       _FillValue              = NaN
+                       long_name               = 'Water level NAVD88'
+                       units                   = 'm'
+                       standard_name           = 'sea_surface_height_above_geopotential_datum'
+                       geopotential_datum_name = 'NAVD88'
+                       note                    = 'Water level calculated using P_1ac + z'
+                       minimum                 = -1.907
+                       maximum                 = 1.5106
+    water_depth
+           Size:       21835x1
+           Dimensions: time
+           Datatype:   double
+           Attributes:
+                       _FillValue    = NaN
+                       long_name     = 'Total water depth'
+                       units         = 'm'
+                       standard_name = 'sea_floor_depth_below_sea_surface'
+                       epic_code     = 3
+                       minimum       = 19.293
+                       maximum       = 22.7106
+    latitude   
+           Size:       1x1
+           Dimensions: latitude
+           Datatype:   double
+           Attributes:
+                       units         = 'degree_north'
+                       axis          = 'Y'
+                       long_name     = 'Latitude'
+                       standard_name = 'latitude'
+                       epic_code     = 500
+    longitude  
+           Size:       1x1
+           Dimensions: longitude
+           Datatype:   double
+           Attributes:
+                       units         = 'degree_east'
+                       axis          = 'X'
+                       long_name     = 'Longitude'
+                       standard_name = 'longitude'
+                       epic_code     = 502

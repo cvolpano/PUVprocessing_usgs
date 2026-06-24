@@ -1,0 +1,344 @@
+Source:
+           C:\Users\odemeo\Documents\Data Processing\Caco_waves\sig\11751sigb5-a.nc
+Format:
+           netcdf4
+Global Attributes:
+           data_type                                      = 'IBurst'
+           sample_mode                                    = 'CONTINUOUS'
+           SciPi                                          = 'Chris Sherwood'
+           PROJECT                                        = 'USGS Coastal and Marine Hazards and Resources Program'
+           EXPERIMENT                                     = 'caco-waves'
+           DESCRIPTION                                    = 'Cape Cod National Seashore, Marconi Beach, Wellfleet, MA'
+           title                                          = 'Time-series measurements of oceanographic data collected in the nearshore zone offshore of Marconi Beach, Wellfleet, MA, December 9, 2024 to March 10, 2025'
+           DATA_SUBTYPE                                   = 'MOORED'
+           DATA_ORIGIN                                    = 'USGS WHCMSC Coastal and Estuarine Dynamics'
+           COORD_SYSTEM                                   = 'GEOGRAPHIC'
+           Conventions                                    = 'CF-1.8'
+           MOORING                                        = '1175'
+           sea_floor_depth_below_mean_sea_level           = 21.1
+           WATER_DEPTH                                    = 21.1
+           WATER_DEPTH_NOTE                               = '(meters), Mean water depth from Signature1000 pressure data'
+           height_above_geopotential_datum                = -21.2
+           geopotential_datum_name                        = 'NAVD88'
+           geopotential_datum_note                        = 'Elevation at seabed using VDatum with LMSL and GEOID18'
+           latitude                                       = 41.8979
+           longitude                                      = -69.9425
+           magnetic_variation                             = -14.35
+           Deployment_date                                = '09-Dec-2024 17:22'
+           Recovery_date                                  = '10-Mar-2025 16:53'
+           DATA_CMNT                                      = 'No magnetic variation recorded, used data from IGRF model via ngdc.noaa.gov.'
+           platform_type                                  = 'Nanopod'
+           DRIFTER                                        = 0
+           POS_CONST                                      = 0
+           DEPTH_CONST                                    = 0
+           WATER_MASS                                     = 'North Atlantic Ocean'
+           VAR_FILL                                       = NaN
+           institution                                    = 'United States Geological Survey, Woods Hole Coastal and Marine Science Center'
+           institution_url                                = 'https://woodshole.er.usgs.gov'
+           Field_Activity_Number                          = '2024-028-FA, 2025-010-FA'
+           basefile                                       = 'mat/S100593A028_caco_waves'
+           filename                                       = '11751sig'
+           LatLonDatum                                    = 'NAD83'
+           ClockError                                     = 0
+           orientation                                    = 'UP'
+           head_rotation                                  = 'horizontal'
+           initial_instrument_height                      = 0.81
+           initial_instrument_height_note                 = 'From seabed'
+           pressure_sensor_height                         = 0.81
+           zeroed_pressure                                = 'No'
+           cutoff_ampl                                    = 0
+           trim_method                                    = 'water level sl'
+           trim_avg_vel_bins                              = 1
+           wave_interval                                  = 3600
+           wave_duration                                  = 2048
+           wave_start_time                                = '2024-12-09 18:00:00'
+           diwasp                                         = 'suv'
+           diwasp_names                                   = 'diwasp'
+           diwasp_method                                  = 'IMLM'
+           diwasp_iter                                    = 100
+           diwasp_smooth                                  = 'ON'
+           diwasp_ibin                                    = 15
+           diwasp_pow2                                    = 'true'
+           puv                                            = 'false'
+           average_interval                               = 360
+           average_duration                               = 240
+           water_level_var                                = 'brangeAST'
+           P_1ac_note                                     = 'Corrected for variations in atmospheric pressure using wxt536 met station at Marconi CoastCam site.'
+           history                                        = '2025-06-11T15:09:19.348341+00:00: Processed using mat2cdf.py with stglib 1.6.1+22.g9e9464b, xarray 2024.11.0, NumPy 2.1.3, netCDF4 1.7.2, Python 3.12.7.
+                                                            2025-06-11T15:39:27.470304+00:00: Atmospherically corrected using time-series from atmpres.cdf and offset of -9.384035110473633
+                                                            2025-06-11T15:39:27.786309+00:00: Data clipped using Deployment_date of 09-Dec-2024 17:22 and Recovery_date of 10-Mar-2025 16:53.
+                                                            2025-06-11T15:39:27.909641+00:00: Rotating heading and horizontal velocities by -14.35 degrees.
+                                                            2025-06-11T15:39:27.918149+00:00: Trimmed velocity data using atmospherically corrected pressure (water level) and sidelobes.
+                                                            2025-06-11T15:39:30.782965+00:00: Processed to CF-1.8 using runots.py.
+                                                            2025-06-11T15:39:30.793559+00:00: make time encoding to dtype double because tstep <xarray.DataArray 'time' ()> Size: 8B
+                                                            array(249999000, dtype='timedelta64[ns]') seconds is < 1 minute
+                                                            2025-06-11T15:40:15.110159+00:00: Create averaged data product from continously sampled IBurst data type using user specified interval 360 seconds and duration 240 seconds.Data variables ['Hdg_1215', 'Ptch_1216', 'Roll_1217'] averaged using vector averaging
+                                                            2025-06-11T15:40:15.112965+00:00: Create water_depth variable using P_1ac and pressure_sensor_height attribute
+                                                            2025-06-11T15:40:15.117596+00:00: Create water_level variable relative to NAVD88 using P_1ac and zsen vertical dimension
+                                                            2025-06-11T15:40:15.119596+00:00: make time encoding int because tstep <xarray.DataArray 'time' ()> Size: 8B
+                                                            array(359999999000, dtype='timedelta64[ns]') seconds is >= 1 minute, round time to seconds first
+                                                            '
+           serial_number                                  = 100593
+           frequency                                      = 1000
+           instrument_type                                = 'Signature1000'
+           bin_size                                       = 1
+           sample_rate                                    = 4
+           beam_angle                                     = 0
+           sample_interval                                = 0.25
+           atmospheric_pressure_correction_file           = 'atmpres.cdf'
+           atmospheric_pressure_correction_offset_applied = -9.384
+           start_time                                     = '2024-12-09T17:22:00.063392000'
+           stop_time                                      = '2025-03-10T16:53:59.813403000'
+           average_samples_per_burst                      = 960
+           DELTA_T                                        = 360
+Dimensions:
+           time      = 21835
+           z         = 23
+           bindist   = 23
+           zsen      = 1
+           depth     = 23
+           depthsen  = 1
+           latitude  = 1
+           longitude = 1
+Variables:
+    time       
+           Size:       21835x1
+           Dimensions: time
+           Datatype:   int32
+           Attributes:
+                       standard_name = 'time'
+                       axis          = 'T'
+                       long_name     = 'time (UTC)'
+                       units         = 'minutes since 2024-12-09 17:22:00'
+                       calendar      = 'proleptic_gregorian'
+    ambig_vel  
+           Size:       21835x1
+           Dimensions: time
+           Datatype:   single
+           Attributes:
+                       _FillValue = NaN
+                       units      = 'm s-1'
+                       long_name  = 'Ambiguity velocity'
+                       minimum    = 10.107
+                       maximum    = 10.316
+    amp_b5     
+           Size:       23x21835
+           Dimensions: z,time
+           Datatype:   single
+           Attributes:
+                       _FillValue    = NaN
+                       units         = 'dB'
+                       standard_name = 'signal_intensity_from_multibeam_acoustic_doppler_velocity_sensor_in_sea_water'
+                       long_name     = 'Beam5 Acoustic Signal Amplitude'
+                       minimum       = 27.4562
+                       maximum       = 85.1646
+    cor_b5     
+           Size:       23x21835
+           Dimensions: z,time
+           Datatype:   single
+           Attributes:
+                       _FillValue    = NaN
+                       units         = 'percent'
+                       standard_name = 'beam_consistency_indicator_from_multibeam_acoustic_doppler_velocity_profiler_in_sea_water'
+                       long_name     = 'Beam5 Acoustic Signal Correlation'
+                       minimum       = 23.3896
+                       maximum       = 100
+    Hdg_1215   
+           Size:       21835x1
+           Dimensions: time
+           Datatype:   single
+           Attributes:
+                       _FillValue    = NaN
+                       units         = 'degrees'
+                       long_name     = 'Instrument Heading'
+                       epic_code     = 1215
+                       note          = 'Heading is degrees true. Converted from magnetic with magnetic variation of -14.350000.'
+                       standard_name = 'platform_orientation'
+                       minimum       = 263.1076
+                       maximum       = 263.8708
+    Ptch_1216  
+           Size:       21835x1
+           Dimensions: time
+           Datatype:   single
+           Attributes:
+                       _FillValue    = NaN
+                       long_name     = 'Instrument Pitch'
+                       units         = 'degrees'
+                       epic_code     = 1216
+                       standard_name = 'platform_pitch'
+                       minimum       = -0.33058
+                       maximum       = 0.52667
+    Roll_1217  
+           Size:       21835x1
+           Dimensions: time
+           Datatype:   single
+           Attributes:
+                       _FillValue    = NaN
+                       long_name     = 'Instrument Roll'
+                       units         = 'degrees'
+                       epic_code     = 1217
+                       standard_name = 'platform_roll'
+                       minimum       = 0.15542
+                       maximum       = 1.4764
+    Tx_1211    
+           Size:       21835x1
+           Dimensions: time
+           Datatype:   single
+           Attributes:
+                       _FillValue = NaN
+                       long_name  = 'Instrument Internal Temperature'
+                       units      = 'degree_C'
+                       epic_code  = 1211
+                       minimum    = 1.3159
+                       maximum    = 8.7191
+    SV_80      
+           Size:       21835x1
+           Dimensions: time
+           Datatype:   single
+           Attributes:
+                       _FillValue    = NaN
+                       units         = 'm s-1'
+                       epic_code     = 80
+                       long_name     = 'Speed of Sound'
+                       standard_name = 'speed_of_sound_in_sea_water'
+                       minimum       = 1455.4008
+                       maximum       = 1485.5024
+    P_1        
+           Size:       21835x1
+           Dimensions: time
+           Datatype:   single
+           Attributes:
+                       _FillValue    = NaN
+                       long_name     = 'Uncorrected pressure'
+                       units         = 'dbar'
+                       epic_code     = 1
+                       standard_name = 'sea_water_pressure'
+                       minimum       = 19.5091
+                       maximum       = 22.6258
+    bindist    
+           Size:       23x1
+           Dimensions: bindist
+           Datatype:   double
+           Attributes:
+                       units             = 'm'
+                       long_name         = 'distance from transducer head'
+                       blanking_distance = 0.1
+                       note              = 'distance is along profile from instrument head to center of bin'
+    P_1ac      
+           Size:       21835x1
+           Dimensions: time
+           Datatype:   single
+           Attributes:
+                       _FillValue    = NaN
+                       long_name     = 'Corrected pressure'
+                       units         = 'dbar'
+                       note          = 'Corrected for variations in atmospheric pressure using wxt536 met station at Marconi CoastCam site.'
+                       standard_name = 'sea_water_pressure_due_to_sea_water'
+                       minimum       = 18.5138
+                       maximum       = 21.9591
+    z          
+           Size:       23x1
+           Dimensions: z
+           Datatype:   double
+           Attributes:
+                       geopotential_datum_name = 'NAVD88'
+                       long_name               = 'height relative to NAVD88'
+                       positive                = 'up'
+                       axis                    = 'Z'
+                       units                   = 'm'
+                       standard_name           = 'height'
+    zsen       
+           Size:       1x1
+           Dimensions: zsen
+           Datatype:   double
+           Attributes:
+                       positive                = 'up'
+                       units                   = 'm'
+                       standard_name           = 'height'
+                       geopotential_datum_name = 'NAVD88'
+                       long_name               = 'pressure sensor height relative to NAVD88'
+    depth      
+           Size:       23x1
+           Dimensions: depth
+           Datatype:   double
+           Attributes:
+                       positive      = 'down'
+                       units         = 'm'
+                       standard_name = 'depth'
+                       long_name     = 'depth below mean sea level'
+    depthsen   
+           Size:       1x1
+           Dimensions: depthsen
+           Datatype:   double
+           Attributes:
+                       positive      = 'down'
+                       units         = 'm'
+                       standard_name = 'depth'
+                       long_name     = 'pressure sensor depth below mean sea level'
+    vel_b5     
+           Size:       23x21835
+           Dimensions: z,time
+           Datatype:   single
+           Attributes:
+                       _FillValue    = NaN
+                       units         = 'm s-1'
+                       standard_name = 'radial_sea_water_velocity_away_from_instrument'
+                       long_name     = 'Beam5 Velocity'
+                       minimum       = -1.56
+                       maximum       = 1.012
+    bin_depth  
+           Size:       23x21835
+           Dimensions: z,time
+           Datatype:   single
+           Attributes:
+                       _FillValue = NaN
+                       units      = 'm'
+                       long_name  = 'bin depth'
+                       note       = 'Actual depth time series of velocity bins. Calculated as corrected pressure (P_1ac) - bindist.'
+                       minimum    = -4.0862
+                       maximum    = 21.3591
+    latitude   
+           Size:       1x1
+           Dimensions: latitude
+           Datatype:   double
+           Attributes:
+                       units         = 'degree_north'
+                       axis          = 'Y'
+                       long_name     = 'Latitude'
+                       standard_name = 'latitude'
+                       epic_code     = 500
+    longitude  
+           Size:       1x1
+           Dimensions: longitude
+           Datatype:   double
+           Attributes:
+                       units         = 'degree_east'
+                       axis          = 'X'
+                       long_name     = 'Longitude'
+                       standard_name = 'longitude'
+                       epic_code     = 502
+    water_depth
+           Size:       21835x1
+           Dimensions: time
+           Datatype:   single
+           Attributes:
+                       _FillValue    = NaN
+                       long_name     = 'Total water depth'
+                       units         = 'm'
+                       standard_name = 'sea_floor_depth_below_sea_surface'
+                       epic_code     = 3
+                       minimum       = 19.3238
+                       maximum       = 22.7691
+    water_level
+           Size:       21835x1
+           Dimensions: time
+           Datatype:   single
+           Attributes:
+                       _FillValue              = NaN
+                       long_name               = 'Water level NAVD88'
+                       units                   = 'm'
+                       standard_name           = 'sea_surface_height_above_geopotential_datum'
+                       geopotential_datum_name = 'NAVD88'
+                       note                    = 'Water level calculated using P_1ac + zsen'
+                       minimum                 = -1.8762
+                       maximum                 = 1.5691
