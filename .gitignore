@@ -2,5 +2,6 @@
 *.nc
 *.zip
 *.mj2
-
+*.Identifier
+*.endpointdlp
 nanopod/data/Marconi_wave-data
